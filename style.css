@@ -3,3 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    height: 90px;
+    background-color: rgb(18, 23, 31);
+}
+
+body{
+    background-color: rgb(31, 45, 60);
+}
