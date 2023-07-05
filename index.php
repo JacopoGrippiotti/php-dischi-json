@@ -24,6 +24,7 @@
               </div>
               <h3>{{cd.title}}</h3>
               <h4>{{cd.author}}</h4>
+              <h3>{{cd.year}}</h3>
             </div>   
         </div>
     </div>
