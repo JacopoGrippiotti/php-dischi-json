@@ -17,7 +17,13 @@
 
    <body>
     <div class="container">
-        <div class="card" v-for="(cd,index) in cdList"></div>
+        <div class="card" v-for="(cd, index) in cdList">
+            <div class="content-wrapper">
+              <div class="image-wrapper">
+                <img :src="cd.poster" alt="">
+              </div>
+            </div>   
+        </div>
     </div>
    </body>
 
