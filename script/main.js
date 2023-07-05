@@ -3,7 +3,7 @@ const { createApp } = Vue;
 createApp({
     data(){
         return{
-            apiUrl:'../server.php',
+            apiUrl:'./server.php',
             cdList:[]
         }
     },
@@ -16,11 +16,11 @@ createApp({
             .then((response) => {
                 console.log(response);
                 this.cdList = response.data;
+                console.log(this.cdList);
             })
         }
     },
-
     created() {
       this.getcdList();
     },
-}).mount("#app")
+}).mount("#App")
