@@ -17,7 +17,7 @@
 
    <body>
     <div class="container">
-        <div class="card" ></div>
+        <div class="card" v-for="(cd,index) in cdList"></div>
     </div>
    </body>
 
